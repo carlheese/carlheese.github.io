@@ -1,585 +1,502 @@
+ChatGPT
+
+
+
+I’ll reorganize the research section by topic, preserve existing links and abstracts, add the Matthias Fahn work-in-progress entry, remove “Persuasion of a Continuum,” and clean up typos and malformed HTML.
+
+Thought for 7m 30s
+Done — I restructured the research section by topic and cleaned the supplied HTML.
+
+Download the revised file here: index_topic_restructure.html
+
+I organized it as:
+
+Political Economy
+Includes the JPE elections paper, referenda paper, Condorcet paper, information frictions paper, coordination paper, and costly participation paper.
+
+Organisational Economics
+Includes the new work in progress: “AI-Assisted Expert Work and the Organization of Review” with Matthias Fahn.
+
+Behavioral Economics
+Includes the JPE Micro paper and “Persuasion versus Presentation.”
+
+Others
+Includes “Strategic Understatements” and the shorter notes.
+
+I also removed “Persuasion of a Continuum” and fixed obvious typos / broken HTML from the supplied code, including Political Economomy, Oppposed, the invalid <be> tag, malformed paragraph nesting, duplicate section IDs, malformed comments, invalid target="_blank"; syntax, and the CSS typo font-family: :.
+
+
+
+
+please remove those qualifiers `publication, working paper, etc.'' please remove also the header short notes'' under others''. under files or interest, remove collective choice''.
+
+Thought for 33s
+Done. I made those changes in the updated file:
+
+index_topic_restructure_v2.html
+
+Changes:
+
+Removed all “Publication,” “Working paper,” and “Work in progress” qualifiers before titles.
+
+Removed the “Shorter Notes” header under “Others.”
+
+Removed “collective choice” from the fields of interest.
+
+
+
+
+please have this order under political economy: `jpe paper, referenda and partial commitment paper, equilibrium coordination problem paper, info frictions paper, condorcet jury theorem without symmetry paper, persuasion in elections with participation cost
+
+I’ll adjust only the ordering within the Political Economy section and leave the rest of the topic structure unchanged.
+
+Thought for 29s
+Done — I reordered the Political Economy section as requested.
+
+Updated file: index_topic_restructure_v3.html
+
 <!DOCTYPE html>
-	<html lang="en-us">
-		<!-- -->
-		<head>
-			<!-- Site info -->
-				<title> Carl Heese </title>
-				<meta name="description" content="Website of Carl Heese, Assistant Professor at Hong Kong University" />
-				<meta name="keywords" content="Carl, Heese, Carl Heese, Bonn, University of Bonn, Economics, Theory, Political Economics, Political , Microeconomics, Voting, Information, Information Aggregation, Elections, Moral" />
-				<meta name="author" content="Carl Heese" />
-			
-				<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-				<meta http-equiv="Cache-control" content="public">
-				<meta name="google-site-verification" content="kbJeCWHHqIcwtZ3ZSlj0FxVEATA_V16qAJAlyt9OIxc" />
-				<meta name="viewport" content="width=device-width, initial-scale=1.0" />		
-			<!-- CSS style-->
-				<!-- <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,400italic,700' rel='stylesheet' type='text/css'> -->
-				<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css"> 
-				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<html lang="en">
+<head>
+	<title>Carl Heese</title>
+	<meta name="description" content="Website of Carl Heese, Assistant Professor at the University of Hong Kong" />
+	<meta name="keywords" content="Carl, Heese, Carl Heese, Bonn, University of Bonn, University of Hong Kong, Economics, Theory, Political Economy, Microeconomics, Voting, Information, Information Aggregation, Elections, Moral" />
+	<meta name="author" content="Carl Heese" />
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Cache-control" content="public" />
+	<meta name="google-site-verification" content="kbJeCWHHqIcwtZ3ZSlj0FxVEATA_V16qAJAlyt9OIxc" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-				<style type="text/css">
-				@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
-				
-					#page{
-						width: 100%; 
-						max-width: 800px; 
-						margin:0 auto;
-						line-height: 1.2;
-						background: white;
-						padding: 0 2em 5em 2em ;
-						box-shadow: 0px 0px 10px 5px #ccc;
-						} /*adjusts page width and line spacing for readibility */
-					body{
-						background: #eee;
-						margin:0; 
-						}
-					h1 {
-						color: #0f3472;
-						font-family: Georgia, "Times New Roman", Times, serif;
-						font-size: 3.5em;
-						font-weight: 300;
-						line-height: 1.05em;
-						letter-spacing: -0.015em;
-						max-width: 1100px;
-						text-align: center;	
-						padding-top: 1em;
-						margin-top: 0;
-						margin-bottom: 0;
-						padding: 1em;
-						margin-bottom: 1em;
-						border-bottom: 1pt outset;
-					}
-					h2 {					
-						color: #0f3472;
-						font-family: Georgia, "Times New Roman", Times, serif;
-						font-size: 2.25em;
-						line-height: 1.25em;
-						font-weight: 400;
-						display: block;
-						/*margin-top: 1em;*/
-						border-bottom: 1px solid;		
-					} 
-					h3 {
-						color: Black;
-						font-family: Georgia, "Times New Roman", Times, serif;
-						font-size: 1.5em;
-						font-weight: 400;
-						display: block;
-						/*margin: 4em 0 1em;*/
-						/*height: 2em;*/
-						line-height: 1.25em;
-						/* border-bottom: 1px solid; */
-						/* text-decoration: underline; */
-						margin-top: 2em
-					}
-					h4 {
-						color: black;
-						font-family: Georgia, "Times New Roman", Times, serif;
-						font-size: 1.125em;
-						line-height: 1.22222222em;
-						font-weight: normal;
-						display: block;
-						margin-bottom: .25em;
-						margin-left: 1.5em;
-						margin-top: 1em;
-					 
-					}
-					.downloadable{
-						color: black;
-						margin-left: 1.5em;
-						padding-left: 0em;
-						text-align: center;
-						font-size: 1em;
-					}
-					.authors {
-						color: #555;
-						font-family: 'Open Sans';
-						font-size: 1em;
-						line-height: 1.22222222em;
-						font-weight: normal;
-						font-style: italic;
-						display: block;
-						margin-top: 0;
-						margin-bottom: .25em;
-						margin-left: 1.75em;
-					}
-					.intro{
-						color: #555;
-						display: block;
-						font-family: Georgia, "Times New Roman", Times, serif;
-						font-size: 1em;
-						font-weight: 400;
-						line-height: 1.6em;
-						/*text-indent: 36px;*/
-						max-width: 960px;
-						margin: .5em 1em;
-						text-align: justify;
-						}
-					p {
-						color: #555;
-						display: block;
-						font-family: Georgia, "Times New Roman", Times, serif;
-						font-size: 1em;
-						font-weight: 400;
-						line-height: 1.6em;
-						/*text-indent: 36px;*/
-						max-width: 960px;
-						margin: 0.5em 2em;
-						text-align: justify;
-					}
-					summary {
-						margin-left: 2em;
-						font-size:1em;
-						font-family: Georgia, "Times New Roman", Times, serif;
-						color: #555;
-						cursor: pointer;
-						}
-	
-					ul {
-						color: #555;
-						font-family: : Georgia, "Times New Roman", Times, serif;
-						font-size: 1em;
-						font-weight: 400;
-						line-height: 1.375em;
-						max-width: 960px;
-					}
-					li {
-						color: #555;
-						font-family: Georgia, "Times New Roman", Times, serif;
-						font-size: 1em;
-						font-weight: 400;
-						line-height: 1.375em;
-						max-width: 960px;
-					}
-					a {
-						color: #0f3472;	/* border-bottom: 1px solid #0f3472; #6fd7f1*/ 
-						font-family: Georgia, "Times New Roman", Times, serif;
-						text-decoration: none;
-					}
-					a:hover {
-						border-bottom: 1px solid #ddd;
-						color: #555;
-					}
-					p,ul{padding: 0 .5em 0 .5em;}
-	
-				/* format columns */
-					.column {
-					}
-					.left {
-						float: left;
-						/*flex: 80%;*/
-						width: 45%;
-						margin-left: auto;
-	    				margin-right: auto;
-					}
-	
-					.right {
-						float: center;
-						/*flex: 20%;*/
-						width: 55%;
-						margin-left: auto;
-	    				margin-right: auto;
-					}
-					.row {
-						display: flex;
-					}
-					@media screen and (max-width: 43.75em) {
-						.left {
-							width: 100%;
-							text-align: center;
-						}
-						.right {
-							width: 100%;
-						}
-						.row {
-							display: grid;
-						}
-						#page {
-							padding: 0 0 5em 0;
-						}
-					}
-		
-					/* Clear floats after the columns */
-					.row:after {
-						content: "";
-						display: table; 
-						clear: both;
-					}
-	
-					@media (max-width: 43.75em) {
-						h1 {
-							font-size: 2.5em;
-							/* 2.5x body copy size = 40px */
-							line-height: 1.125em;
-						}
-						h2 {
-							font-size: 2em;
-							/* 2x body copy size = 32px */
-							line-height: 1.25em;
-							margin: 0.5em 0.3em;
-						}
-						h3 {
-							font-size: 1.5em;
-							/* 1.5x body copy size = 24px */
-							line-height: 1.25em;
-							margin: 0.5em 0.5em;
-						}
-						h4{
-							margin: 0.5em 0.5em;
-							
-						}
-						.abstract{
-							padding: 0 2em;
-							}
-						.intro{
-							padding-top:1em;
-							}
-						.authors{
-							text-align: left;
-						}
-					}
-	
-	
-					img {
-						width:100%;
-						height:auto;
-						max-width: 400px;
-						min-width: 10em;
-						margin-left: auto;
-	    					margin-right: auto;
-	    					float: center;
-						padding: 1em 0em;
-					}
-					details summary::-webkit-details-marker {
-						display:none;
-					}
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-				</style>
-			<!-- other -->
-			
-		</head>
-	
-		<body>
-			<div id="page"> 
-	
-				<h1> Carl Heese </h1>
-				<!-- <h3> Ph.D. candidate at the Bonn Graduate School of Economics</h3> -->
-				 <div class="row">
-					 <br> <br>
-				 	<div class="left">
-						<img src="Heese_02.JPG" alt="" align="middle" sizes="(min-width: 200px) 40vw, (max-width: 400px) 80vw">
-					</div>
-				 	<div class="right">
-						<p class="intro">
-						I'm an Assistant Professor at The University of Hong Kong (HKU) Before that, I was an Assistant Professor at University of Vienna, and received my Ph.D. from the University of Bonn in 2020. 
-						<br> 
-						I am organizing the <a href="https://sites.google.com/view/hkutheorygroup/about" target="_blank"> Micro Theory Seminar at HKU </a>.
-							<br> <br>
-						<!--<br><br>
-						Here is a <a href="https://youtu.be/bXznUy2wUJM" target="_blank"> video </a> about our department that I shot together with my colleagues <a href="https://homepage.univie.ac.at/karl.schlag/" target="_blank" ;="">Karl Schlag</a> and <a href="https://sichen-econ.github.io" target="_blank" ;="">Si Chen</a>.
-							
-						<br><br>--!>
-						
-						<i class="fa fa-envelope-open-o" aria-hidden="true"></i>  &nbsp; Email: <a href="mailto:heese@hku.hk"> heese(at)hku.hk </a>
-						<br>
-						<i class="fa fa-address-book-o" aria-hidden="true"></i>  &nbsp; Contact: +852 391 77069
-						<br>
-						<i class="fa fa-briefcase" aria-hidden="true"></i> &nbsp; Office: Room 802, K.K. Leung Building, Pok Fu Lam Rd, Pok Fu Lam, Hong Kong
-						<br><be>
-						<i class="fa fa-graduation-cap" aria-hidden="true"></i> &nbsp; <a href="https://carlheese.github.io/Heese_CV-vx.pdf" target="_blank";> Curriculum Vitae (PDF) </a>  					<p>
+	<style type="text/css">
+		#page {
+			width: 100%;
+			max-width: 800px;
+			margin: 0 auto;
+			line-height: 1.2;
+			background: white;
+			padding: 0 2em 5em 2em;
+			box-shadow: 0 0 10px 5px #ccc;
+		}
 
-							<br> 
-					Fields of interest: Political Economomy, collective choice, information design, behavioral economics	
-					 </div>
+		body {
+			background: #eee;
+			margin: 0;
+		}
 
-	</div> 
-	
-				
-				
-			<!-- 	<br/><p align="center"> <a href="#research" title="Research">Research</a> &nbsp;&nbsp;&nbsp;&nbsp;&#8901;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#cv" title="Curriculum Vitae">CV</a> &nbsp;&nbsp;&nbsp;&nbsp;&#8901;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#contact" title="Contact 
-">Contact</a>  -->
-	
-				<!-- Research -->
-				<!--<h2 id="research"> Job Market Paper </h2> 
-				<!--<h3><i class="fa fa-bookmark-o" aria-hidden="true"></i> Job Market Paper </h3>-->
+		h1 {
+			color: #0f3472;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 3.5em;
+			font-weight: 300;
+			line-height: 1.05em;
+			letter-spacing: -0.015em;
+			max-width: 1100px;
+			text-align: center;
+			padding: 1em;
+			margin-top: 0;
+			margin-bottom: 1em;
+			border-bottom: 1pt outset;
+		}
 
-								
-					<!-- 	</details> --> 
-						
-				
-				<!--
-				
-				<h4> Interest groups and policy uncertainty: Competition in coordination </h4> 
-						<p class="authors">
-							(<a href="https://carlheese.github.io/Heese_Competition-in-coordination.pdf" target="_blank";> current version </a>)
-						</p>
-				<details>
-							<summary>[abstract]</summary>
-								<p class="abstract">
-								We study a voting model. Policy consequences are uncertain and becoming better informed is costly to individual voters. Outcomes are driven by competition in coordination: opposing interest groups compete and each interest group faces the problem to coordinate on supporting the ex-post preferred policy. Coordination is difficult since the information about policy consequences is costly and asymmetric within a group. There are three equilibria and we characterize all,  based on an index that captures the relative severity of each group's coordination problem. The index depends on the joint distribution of the primitives (cost, intensities, prior beliefs). Correlation and dispersion matter. In particular, we find that outcomes may not align with the majoritarian principle in \textit{any} equilibrium, unlike in related standard settings.
-					</p>
-						 -->
-				
-						<!-- <p><a href="#"> PDF </a></p> -->
-	
-					
-				
-				 
-<h2 id="WorkingPapers">  Publications  </h2>
-					
-	<h4> <a href="https://carlheese.github.io/Heese_Paper_Fishing.pdf" target="_blank"> Fishing for good news: Motivated Information Acquisition </a> (with <a href="https://sichen-econ.github.io" target="_blank" ;="">Si Chen</a>), <b> JPE:Micro (2026) </b>
-						
-					</h4>
-				
-					<p class="authors"> <a href="https://carlheese.github.io/Heese_OnlineAppendix_Fishing.pdf" target="_blank"> Online Appendix </a>, <a href="https://www.crctr224.de/en/research-output/discussion-papers/archive/2021/DP223v3" target="_blank"> CRC discussion paper</a>, Econ Job Market Best Paper Award <br>
-							 (EEA)  <b reject and resubmit at AEJ:Micro</b>
-						<!--link to <a href="https://lt.org/publication/what-prompts-decision-makers-stop-collecting-relevant-information" target="_blank"> 5-minute video </a>-->
+		h2 {
+			color: #0f3472;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 2.25em;
+			line-height: 1.25em;
+			font-weight: 400;
+			display: block;
+			border-bottom: 1px solid;
+		}
+
+		h3 {
+			color: black;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 1.5em;
+			font-weight: 400;
+			display: block;
+			line-height: 1.25em;
+			margin-top: 2em;
+		}
+
+		h4 {
+			color: black;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 1.125em;
+			line-height: 1.22222222em;
+			font-weight: normal;
+			display: block;
+			margin-bottom: .25em;
+			margin-left: 1.5em;
+			margin-top: 1em;
+		}
+
+		.paper-status {
+			color: #555;
+			font-style: italic;
+		}
+
+		.downloadable {
+			color: black;
+			margin-left: 1.5em;
+			padding-left: 0;
+			text-align: center;
+			font-size: 1em;
+		}
+
+		.authors {
+			color: #555;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 1em;
+			line-height: 1.22222222em;
+			font-weight: normal;
+			font-style: italic;
+			display: block;
+			margin-top: 0;
+			margin-bottom: .25em;
+			margin-left: 1.75em;
+		}
+
+		.intro {
+			color: #555;
+			display: block;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 1em;
+			font-weight: 400;
+			line-height: 1.6em;
+			max-width: 960px;
+			margin: .5em 1em;
+			text-align: justify;
+		}
+
+		p {
+			color: #555;
+			display: block;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 1em;
+			font-weight: 400;
+			line-height: 1.6em;
+			max-width: 960px;
+			margin: 0.5em 2em;
+			text-align: justify;
+		}
+
+		summary {
+			margin-left: 2em;
+			font-size: 1em;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			color: #555;
+			cursor: pointer;
+		}
+
+		ul {
+			color: #555;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 1em;
+			font-weight: 400;
+			line-height: 1.375em;
+			max-width: 960px;
+		}
+
+		li {
+			color: #555;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 1em;
+			font-weight: 400;
+			line-height: 1.375em;
+			max-width: 960px;
+		}
+
+		a {
+			color: #0f3472;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			text-decoration: none;
+		}
+
+		a:hover {
+			border-bottom: 1px solid #ddd;
+			color: #555;
+		}
+
+		p,
+		ul {
+			padding: 0 .5em 0 .5em;
+		}
+
+		.left {
+			float: left;
+			width: 45%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.right {
+			float: none;
+			width: 55%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.row {
+			display: flex;
+		}
+
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+
+		img {
+			width: 100%;
+			height: auto;
+			max-width: 400px;
+			min-width: 10em;
+			margin-left: auto;
+			margin-right: auto;
+			float: none;
+			padding: 1em 0;
+		}
+
+		details summary::-webkit-details-marker {
+			display: none;
+		}
+
+		@media screen and (max-width: 43.75em) {
+			.left {
+				width: 100%;
+				text-align: center;
+			}
+
+			.right {
+				width: 100%;
+			}
+
+			.row {
+				display: grid;
+			}
+
+			#page {
+				padding: 0 0 5em 0;
+			}
+		}
+
+		@media (max-width: 43.75em) {
+			h1 {
+				font-size: 2.5em;
+				line-height: 1.125em;
+			}
+
+			h2 {
+				font-size: 2em;
+				line-height: 1.25em;
+				margin: 0.5em 0.3em;
+			}
+
+			h3 {
+				font-size: 1.5em;
+				line-height: 1.25em;
+				margin: 0.5em 0.5em;
+			}
+
+			h4 {
+				margin: 0.5em 0.5em;
+			}
+
+			.abstract {
+				padding: 0 2em;
+			}
+
+			.intro {
+				padding-top: 1em;
+			}
+
+			.authors {
+				text-align: left;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div id="page">
+		<h1>Carl Heese</h1>
+
+		<div class="row">
+			<div class="left">
+				<img src="Heese_02.JPG" alt="Carl Heese" sizes="(min-width: 200px) 40vw, (max-width: 400px) 80vw" />
+			</div>
+
+			<div class="right">
+				<p class="intro">
+					I'm an Assistant Professor at the University of Hong Kong (HKU). Before that, I was an Assistant Professor at the University of Vienna and received my Ph.D. from the University of Bonn in 2020.
+					<br />
+					I organize the <a href="https://sites.google.com/view/hkutheorygroup/about" target="_blank" rel="noopener noreferrer">Micro Theory Seminar at HKU</a>.
+					<br /><br />
+					<i class="fa fa-envelope-open-o" aria-hidden="true"></i>&nbsp; Email: <a href="mailto:heese@hku.hk">heese(at)hku.hk</a>
+					<br />
+					<i class="fa fa-address-book-o" aria-hidden="true"></i>&nbsp; Contact: +852 3917 7069
+					<br />
+					<i class="fa fa-briefcase" aria-hidden="true"></i>&nbsp; Office: Room 802, K.K. Leung Building, Pok Fu Lam Road, Pok Fu Lam, Hong Kong
+					<br />
+					<i class="fa fa-graduation-cap" aria-hidden="true"></i>&nbsp; <a href="https://carlheese.github.io/Heese_CV-vx.pdf" target="_blank" rel="noopener noreferrer">Curriculum Vitae (PDF)</a>
+					<br /><br />
+					Fields of interest: political economy, organisational economics, information design, and behavioral economics.
 				</p>
-						<details>
-							<summary>[abstract]</summary>
-							<p class="abstract">
-							The motivated reasoning literature argues that people skew their beliefs to feel moral when acting selfishly. We study the information acquisition of decision-makers with a motive to form positive moral self-views and one to act selfishly. The selfish motive makes individuals dynamically ``fish for good news'': They are more likely to continue acquiring information having so far observed information indicating that acting selfishly is harmful to others, and more likely to stop after information indicating it is harmless. Further analysis finds no evidence the selfish motive worsens others’ outcomes and suggests this is due to individuals fishing for good news.
-							</p>
-						</details>
-						
-		<h4> <a href="https://carlheese.github.io/Persuasion-InfoAggr.pdf" target="_blank";> Persuasion and Information Aggregation in Elections </a> (with <a href="https://sites.google.com/site/slauerma/" target="_blank";>Stephan Lauermann)</a>, <b> Journal of Political Economy (2025) </b> </h4> 
-						<p class="authors"> 
-							 <a href="https://ideas.repec.org/p/bon/boncrc/crctr224_2019_128.html" target="_blank";> CRC discussion paper</a>, <a href="https://carlheese.github.io/Costly-Participation-Supplement.pdf" target="_blank";> Supplement on Persuasion in Elections when Voting is Costly</a>
-						</p>
-						<details>
-							<summary>[abstract]</summary>
-								<p class="abstract"> 
-									This paper studies a large majority election with voters who have heterogeneous, private preferences and exogenous private information about an unknown state of the world. We show that a Bayesian persuader can achieve any state-contingent outcome in some equilibrium by providing additional information. In this setting, without the persuader's additional information, a version of the Condorcet jury theorem holds, in the sense that outcomes of large elections satisfy full-information equivalence (Feddersen and Pesendorfer, 1997). Persuasion does not require detailed knowledge of the voters' private information, preferences, or the voting rule. It also requires almost no commitment power on the part of the persuader. 
-									
-									
-		
-							</p>
-						</details>				
-						
-				<h2 id="WorkingPapers">  Working Papers  </h2>
+			</div>
+		</div>
 
-<h4>     <a href="https://carlheese.github.io/ssrn-commitment-referenda.pdf" target="_blank";> Referenda and Partial Commitment in Policy Making </a>  </h4> 				
-	
-					 <details>
-							<summary>[abstract]</summary>
-								<p class="abstract">
-								We study quasi-referenda: two-stage decision processes in which a large number
-of privately informed agents each answer a binary question, and their collective response constrains the policy options from which a principal must then choose.  Across all quasi-referenda, our analysis singles out procedures in which the collective acts as a gatekeeper that authorizes or blocks an extreme policy while otherwise delegating choice to the principal. These procedures maximize the principal's payoff guarantee (the worst-case payoff across all equilibria and information structures) within the class of all quasi-referenda, and when the policy space is fine, they robustly yield near-full-information outcomes. Our results provide a rationale for referenda used in practice and, more broadly, highlight commitment as an important dimension of political institutions.
-							</p>
-							</details>	
+		<h2 id="political-economy">Political Economy</h2>
 
-	<h4>  <a href="https://carlheese.github.io/CJT-no-symmetry.pdf" target="_blank";> Condorcet's Jury Theorem Without Symmetry </a>  (with <a href="https://sites.google.com/site/slauerma/" target="_blank";>Stephan Lauermann)</a> </h4> 
-						<p class="authors"> 
-					
-						
-					
-											
-				
-		<h4> <a href="https://carlheese.github.io/Heese_Paper_Persuasion_with_Image_Concerns.pdf" target="_blank"> Persuasion versus Presentation </a> (with <a href="https://www.shuoliu.net/" target="_blank";>Shuo Liu)</a>, </h4> 
-						<p class="authors"> 
-	<p class="authors">  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680477" target="_blank"> SSRN discussion paper </a>
+		<h4>
+			<a href="https://carlheese.github.io/Persuasion-InfoAggr.pdf" target="_blank" rel="noopener noreferrer">Persuasion and Information Aggregation in Elections</a>
+			(with <a href="https://sites.google.com/site/slauerma/" target="_blank" rel="noopener noreferrer">Stephan Lauermann</a>), <b>Journal of Political Economy (2025)</b>
+		</h4>
+		<p class="authors">
+			<a href="https://ideas.repec.org/p/bon/boncrc/crctr224_2019_128.html" target="_blank" rel="noopener noreferrer">CRC discussion paper</a>,
+			<a href="https://carlheese.github.io/Costly-Participation-Supplement.pdf" target="_blank" rel="noopener noreferrer">Supplement on persuasion in elections when voting is costly</a>
+		</p>
+		<details>
+			<summary>[abstract]</summary>
+			<p class="abstract">
+				This paper studies a large majority election with voters who have heterogeneous private preferences and exogenous private information about an unknown state of the world. We show that a Bayesian persuader can achieve any state-contingent outcome in some equilibrium by providing additional information. In this setting, without the persuader's additional information, a version of the Condorcet jury theorem holds, in the sense that outcomes of large elections satisfy full-information equivalence (Feddersen and Pesendorfer, 1997). Persuasion does not require detailed knowledge of the voters' private information, preferences, or the voting rule. It also requires almost no commitment power on the part of the persuader.
+			</p>
+		</details>
 
-							
-						</p>
-						<details>
-							<summary>[abstract]</summary>
-								<p class="abstract">
-									In many economic situations,  a sender communicates strategically with a receiver not only to influence the receiver's decision-making but also to shape the perception of unobserved characteristics of herself (e.g. morality, loyalty, or capability).  To study such situations, we propose a model of Bayesian persuasion in which a sender communicates about a pay-off relevant state to influence decisions but also has a private type and cares about how she presents herself. Optimal communication balances persuasion and self-presentation by signaling about the sender's type.  
-	Such signaling through the design of communication has non-standard implications for the receiver: Whether the receiver fares better or worse compared to the pure persuasion setting may depend on the selected equilibrium and effects can be non-monotone with respect to the sender's type.  We illustrate our findings within various classic payoff environments, for instance with quadratic losses or state-independent sender preferences. Finally, we use the model to shed new light on a series of applications.
-							</p>
-						</details>
+		<h4>
+			<a href="https://carlheese.github.io/ssrn-commitment-referenda.pdf" target="_blank" rel="noopener noreferrer">Referenda and Partial Commitment in Policy Making</a>
+		</h4>
+		<details>
+			<summary>[abstract]</summary>
+			<p class="abstract">
+				We study quasi-referenda: two-stage decision processes in which a large number of privately informed agents each answer a binary question, and their collective response constrains the policy options from which a principal must then choose. Across all quasi-referenda, our analysis singles out procedures in which the collective acts as a gatekeeper that authorizes or blocks an extreme policy while otherwise delegating choice to the principal. These procedures maximize the principal's payoff guarantee (the worst-case payoff across all equilibria and information structures) within the class of all quasi-referenda, and when the policy space is fine, they robustly yield near-full-information outcomes. Our results provide a rationale for referenda used in practice and, more broadly, highlight commitment as an important dimension of political institutions.
+			</p>
+		</details>
 
-			<h4>  <a href="https://carlheese.github.io/heese-elections-frictions.pdf" target="_blank";> Information Frictions and Oppposed Political Interests </a></h4> 				
-	
-					<p class="authors">  <a href="https://www.researchgate.net/publication/358742924_Elections_with_information_frictions_and_distributive_uncertainty" target="_blank"> CRC discussion paper </a>, 
-						 <a href="https://carlheese.github.io/wallis-2022-slides.pdf" target="_blank";> Slides </a>
-						
-						<!--<a href="https://youtu.be/7zTbgFG3-eo" target="_blank"> 20-min video presentation </a>  </p> -->
-				
-					 	<details>
-							<summary>[abstract]</summary>
-								<p class="abstract">
-								This paper studies collective choices with information frictions. In a majority election, voters can acquire private information about policy consequences before voting though this requires costly effort. Information frictions alter the power relationships between opposed political interests by turning the election into an informational contest: There is an equilibrium in which the policy preferred by the interest group with the higher aggregate information acquisition effort is elected; outcomes therein represent voters with a minority interest if, they have comparably high utilities. 
-Information advantages and internal conflicts of opinion matter: we characterize how information cost and the dispersion of priors modulate the influence of an interest group.
-								</p>
-							</details>
-				
-		<h4>  <a href="https://carlheese.github.io/heese-elections-coordination.pdf" target="_blank";> The Equilibrium Coordination Problem in Elections with Costly Information </a>  </h4> 				
-	
-					 	<details>
-							<summary>[abstract]</summary>
-								<p class="abstract">
-								Voters decide between two policies in a majority election. All voters share a commonly known preference type but are uncertain about which policy is better for them.  They can acquire private information about the policy consequences at a cost. Thus, political information is a public good. In all equilibria, voters under-invest in political information. We identify another source of inefficiencies: equilibrium mis-coordination. When the marginal cost of information are arbitrarily low, there are two equilibria, ordered by the information investment of the voters. In a large electorate, only the high investment equilibrium is asymptotically efficient. 
-								</p>
-							</details>	
-						
-				
-					<h4>  Persuasion in Elections with Participation Cost (with <a href="https://sites.google.com/site/slauerma/" target="_blank";>Stephan Lauermann)</a> </h4> 
-						<p class="authors"> 
-					<a href="https://carlheese.github.io/Costly-Participation-Supplement.pdf" target="_blank";> Preliminary Draft </a>
-								
-				
-				
-				<h2 id="WorkingPapers">  Work In Progress  </h2>
-					
-					
-				
-				
-						<!--<details>
-						<summary>[abstract]</summary>
-								<p class="abstract">
-									In many economic situations,  a sender communicates strategically with a receiver not only  to influence  the decision-making of the latter,  but also how certain unobserved characteristics of herself (e.g., unselfishness or integrity) are perceived by the latter.  To study such strategic interactions,  we introduce image concerns to the canonical framework of information design.  Our main result  characterizes how the sender optimally sacrifices  her material utilities to boost reputation by manipulating the communication protocol of a payoff-relevant state.  
-We also discuss the implications for the receiver's welfare in various standard sender-receiver games (e.g., settings with quadratic losses or binary states). Our analysis provides new insights into a wide range of applications,  such as how performance evaluation in hierarchical organizations  can backfire  by engendering harmful upward signalling,  or how political candidates may use (and misuse) populist rhetoric to frame the general perception of their competence. 
-									
-							</p> 
-						</details> --!>
-				
-				<h4>   Strategic Understatements (with <a href="https://sites.google.com/view/kattwinkel" target="_blank";>Deniz Kattwinkel)</a> </h4> 
-						<p class="authors"> 
-							
-						</p>
-				
-						<details>
-						<summary>[abstract]</summary>
-								<p class="abstract">
-									We study the design of quality certificates. The certificate holder (sender) tries to convince a receiver of his quality. The receiver benefits from more precise knowledge about the sender’s quality and can costly verify the sender's quality. We show that if the certificate is too selective, in all equilibria, senders of very high quality do not present the certificate; they pool with low-quality types who do not hold a certificate. The high types forgo a signaling opportunity ("understatement"), but thereby motivate the receiver to costly verify their high quality herself. Conversely, when the certificate is not too selective, there are monotone equilibria where higher types are more likely to present their certificates.
-							</p> 
-						</details> 			
+		<h4>
+			<a href="https://carlheese.github.io/heese-elections-coordination.pdf" target="_blank" rel="noopener noreferrer">The Equilibrium Coordination Problem in Elections with Costly Information</a>
+		</h4>
+		<details>
+			<summary>[abstract]</summary>
+			<p class="abstract">
+				Voters decide between two policies in a majority election. All voters share a commonly known preference type but are uncertain about which policy is better for them. They can acquire private information about the policy consequences at a cost. Thus, political information is a public good. In all equilibria, voters under-invest in political information. We identify another source of inefficiencies: equilibrium mis-coordination. When the marginal cost of information is arbitrarily low, there are two equilibria, ordered by the information investment of the voters. In a large electorate, only the high-investment equilibrium is asymptotically efficient.
+			</p>
+		</details>
 
-				<h4>  Persuasion of a Continuum  </h4> 
-						<p class="authors"> 
-							
-						</p>
-				
-    				
-				<!--<h4> Sequential Costly Recommendations (with <a href="https://sites.google.com/view/helene-mass-economics";>Helene Mass)</a> </h4> 
-						<p class="authors"> 
-							draft avalaible on request
-						</p> -->
-				
-				
-				
-				
-				<h2 id="WorkingPapers">  Short Notes  </h2>
-				
-				<h4>  <a href="https://carlheese.github.io/Candidate-selection-current.pdf" target="_blank";> Selecting candidates: the value of non-uniform tests and self-reports  </a>
-						
-					</h4>
-				
-					<h4>  Note: <a href="https://carlheese.github.io/generalized-ivt-updated.pdf" target="_blank";> A Generalized Intermediate Value Theorem </a> (with  <a href="https://sites.google.com/site/mehmetekmekci45/" target="_blank";>Mehmet Ekmekci</a> and  <a href="https://sites.google.com/site/slauerma/" target="_blank";>Stephan Lauermann</a>) </h4> 	
-				
-								
-				<!-- <p class="otherdownloadable">
-						<i class="fa fa-caret-right" aria-hidden="true"></i></p>
-						<p></p> -->
-				
-				<h4>  Note: <a href="https://www.researchgate.net/publication/353144060_Social_Learning_with_State-Dependent_Observations" target="_blank"> Social Learning with State-Dependent Observations </a> </h4>
-						
-				<details>
-					<summary> [abstract]</summary> 
-						<p class="abstract">
-						In this note, I study a variant of the canonical binary-state binary-choice social learning model (Bikhchandani et al., 1992). An individual would like to choose an action only in the high state.  When making her own decision, she observes previous decision-makers who chose the action. Importantly, the likelihood of observing the action of previous decision-maker depends on the state. I show that when observing the action is more likely in the low state, the individual faces an inference problem: does she observe many actions because the state is high and previous decision-makers had private information about this or because the state is low and previous actions are more visible. In this situation, learning is confounded (Smith and Sorensen, 2000).
-						</p>
-						</details>	
-								
-						
-				
-				<!--<h3> <i class="fa fa-bookmark-o" aria-hidden="true"></i> Work in Progress  </h3>-->
-				
-	<!--- <h2 id="WorkingPapers">  Work in Progress  </h2> --->
-				
-				<!-- <h4> A Parameter-Free Elicitation of Probability Weights 
-						<i> <small> (with <a href="https://sichen-econ.github.io" target="_blank" ;=""> Si Chen </a>)	</small></i> </h4>
-						<p class="otherdownloadable">
-						<i class="fa fa-caret-right" aria-hidden="true"></i><a href="https://sichen-econ.github.io/ChenHeese_ProbabilityWeighting.pdf" target="_blank"> The Method </a> </p>
-						<p></p>
-						
-						<details>
-						<summary> </i>[abstract]</summary> 
-						<p class="abstract">
-						We propose a non-parametric method to elicit probability weights as in Prospect Theory based on <a href="https://sichen-econ.github.io/ChenHeese_ProbabilityWeighting.pdf" target="_blank">this note</a>. This method trades off risky rewards and delayed ones. It has the following two features: first, it does not require functional form assumptions on the utility function, nor elicitation of the utility function; second, it is compatible with both monetary and non-monetary incentives. Requiring only few measurements, it is also easy to implement.
-						</p>
-						</details>	-->	
-				
-		<!--		<h4>  Policy Uncertainty and Signaling in Referenda </h4>
-						<p class="authors"> 
-							(with <a href="https://www.bgse.uni-bonn.de/en/people/student-directory/deniz-kattwinkel" target="_blank";> Deniz Kattwinkel </a>, manuscript coming soon)
-						</p>
-			<details>
-						<summary> </i>[abstract]</summary> 
-						<p class="abstract">
-						We study voting on a reform for which the implementation is at the discretion of a politician who is biased against the reform. Valuable information about the efficacy of the reform is dispersed among citizens, and by voting, citizens can transmit their information to the politician. When the politician has no discretion, the Condorcet Jury Theorem holds (Feddersen & Pesendorfer, 1998). When the politician has full discretion, in all equilibria, there is no information transmission at all (Battaglini, 2017). We consider a scenario of ``intermediate discretion’’ akin to political referenda.  When the majority votes against the reform, the status quo is kept. Otherwise, the politician is bound to implement the reform but can choose the degree of implementation. This creates one-sided signaling incentives for the voters. Even when the politician is only slightly biased against the referendum, there are equilibria with ``oversignaling’’  for which the reform always passes, even in the situations where all citizens and the politician prefer it not to.
-						</p>
-						</details>	
-			
-				
-				<h4> Strategic Understatements </h4>
-						<p class="authors">  
-						(with <a href="https://www.bgse.uni-bonn.de/en/people/student-directory/deniz-kattwinkel" target="_blank";> Deniz Kattwinkel </a>, in preparation) 
-						</p>
-				<details>
-					<summary> </i>[abstract]</summary> 
-						<p class="abstract">
-						We study the design of quality certificates. The certificate holder (sender) tries to convince a receiver of his quality. The receiver benefits from more precise knowledge about the sender’s quality and can costly verify the sender's quality. We show that if the certificate is too selective, in all equilibria, senders of very high quality do not present the certificate; they pool with low-quality types who do not hold a certificate. The high types forgo a signaling opportunity (``understatement’’), but thereby motivate the receiver to costly verify their high quality herself. Conversely, when the certificate is not too selective, there are monotone equilibria where higher types are more likely to present their certificates.
-						</p>
-						</details>	-->
-<!--- <h4> Delegated Authority, Signaling Motives, and Bad Compromises in Collective Decisions </h4>
-						<p class="otherdownloadable">
-						<i class="fa fa-caret-right" aria-hidden="true"></i><a href="https://www.researchgate.net/publication/353143951_Delegated_Authority_Signaling_Motives_and_Bad_Compromises_in_Collective_Decisions?channel=doi&linkId=60e9948d0fbf460db8f6e236&showFulltext=true" target="_blank"> Conference Presentation Slides (ResearchGate) </a> </p>
-						<p></p> --->
-								
-<!--- <h4> Optimal Quality Tests for Candidate Selection </h4>
-						<p class="otherdownloadable">
-						<i class="fa fa-caret-right" aria-hidden="true"></i><a href="https://www.researchgate.net/publication/354100104_Optimal_Quality_Tests_for_Selecting_Candidates"> Paper (ResearchGate) </a> </p>
-						<p></p> --->
-				
-				
+		<h4>
+			<a href="https://carlheese.github.io/heese-elections-frictions.pdf" target="_blank" rel="noopener noreferrer">Information Frictions and Opposed Political Interests</a>
+		</h4>
+		<p class="authors">
+			<a href="https://www.researchgate.net/publication/358742924_Elections_with_information_frictions_and_distributive_uncertainty" target="_blank" rel="noopener noreferrer">Discussion paper</a>,
+			<a href="https://carlheese.github.io/wallis-2022-slides.pdf" target="_blank" rel="noopener noreferrer">slides</a>
+		</p>
+		<details>
+			<summary>[abstract]</summary>
+			<p class="abstract">
+				This paper studies collective choices with information frictions. In a majority election, voters can acquire private information about policy consequences before voting, although this requires costly effort. Information frictions alter the power relationships between opposed political interests by turning the election into an informational contest: there is an equilibrium in which the policy preferred by the interest group with the higher aggregate information-acquisition effort is elected; outcomes therein represent voters with a minority interest if they have comparably high utilities. Information advantages and internal conflicts of opinion matter: we characterize how information costs and the dispersion of priors modulate the influence of an interest group.
+			</p>
+		</details>
 
-			
-						
-					
-					
-			<!--	<h3> <i class="fa fa-bookmark-o" aria-hidden="true"></i> Earlier Publication </h3>
-					<h4> Labour Income in the Age of Digital Revolution </h4>
-						<p class="authors">
-						(with <a href="http://www.janvoelzke.de" target="_blank";>Jan Voelzke</a>; published in Empirical Economics Letters, 2017)
-						</p> -->
-			
-	
-			</div> <!-- ends page -->
+		<h4>
+			<a href="https://carlheese.github.io/CJT-no-symmetry.pdf" target="_blank" rel="noopener noreferrer">Condorcet's Jury Theorem Without Symmetry</a>
+			(with <a href="https://sites.google.com/site/slauerma/" target="_blank" rel="noopener noreferrer">Stephan Lauermann</a>)
+		</h4>
 
-<!--- 7. optimal quality tests for selecting candidates 
-8. communication with image concerns (aka media bias and political correctness)
-9. Informational Gerrymandering
-10. Sequential Recommendations
--->
-		
-		
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<!-- Statcounter code for Carl's Github
-http://carlheese.github.io on Google Sites (new) -->
-<script type="text/javascript">
-var sc_project=12132381; 
-var sc_invisible=1; 
-var sc_security="83daadaf"; 
-var sc_https=1; 
-</script>
-<script type="text/javascript"
-src="https://www.statcounter.com/counter/counter.js"
-async></script>
-<noscript><div class="statcounter"><a title="Web Analytics"
-href="https://statcounter.com/" target="_blank"><img
-class="statcounter"
-src="https://c.statcounter.com/12132381/0/83daadaf/1/"
-alt="Web Analytics"></a></div></noscript>
-<!-- End of Statcounter Code -->
-	
-		</body>
-	</html>
+		<h4>
+			Persuasion in Elections with Participation Cost (with <a href="https://sites.google.com/site/slauerma/" target="_blank" rel="noopener noreferrer">Stephan Lauermann</a>)
+		</h4>
+		<p class="authors">
+			<a href="https://carlheese.github.io/Costly-Participation-Supplement.pdf" target="_blank" rel="noopener noreferrer">Preliminary draft</a>
+		</p>
 
+		<h2 id="organisational-economics">Organisational Economics</h2>
 
+		<h4>
+			AI-Assisted Expert Work and the Organization of Review (with Matthias Fahn)
+		</h4>
 
+		<h2 id="behavioral-economics">Behavioral Economics</h2>
 
+		<h4>
+			<a href="https://carlheese.github.io/Heese_Paper_Fishing.pdf" target="_blank" rel="noopener noreferrer">Fishing for Good News: Motivated Information Acquisition</a>
+			(with <a href="https://sichen-econ.github.io" target="_blank" rel="noopener noreferrer">Si Chen</a>), <b>JPE Micro (2026)</b>
+		</h4>
+		<p class="authors">
+			<a href="https://carlheese.github.io/Heese_OnlineAppendix_Fishing.pdf" target="_blank" rel="noopener noreferrer">Online Appendix</a>,
+			<a href="https://www.crctr224.de/en/research-output/discussion-papers/archive/2021/DP223v3" target="_blank" rel="noopener noreferrer">CRC discussion paper</a>,
+			Econ Job Market Best Paper Award (EEA)
+		</p>
+		<details>
+			<summary>[abstract]</summary>
+			<p class="abstract">
+				The motivated reasoning literature argues that people skew their beliefs to feel moral when acting selfishly. We study the information acquisition of decision-makers with a motive to form positive moral self-views and one to act selfishly. The selfish motive makes individuals dynamically "fish for good news": they are more likely to continue acquiring information having so far observed information indicating that acting selfishly is harmful to others, and more likely to stop after information indicating it is harmless. Further analysis finds no evidence that the selfish motive worsens others' outcomes and suggests this is due to individuals fishing for good news.
+			</p>
+		</details>
 
+		<h4>
+			<a href="https://carlheese.github.io/Heese_Paper_Persuasion_with_Image_Concerns.pdf" target="_blank" rel="noopener noreferrer">Persuasion versus Presentation</a>
+			(with <a href="https://www.shuoliu.net/" target="_blank" rel="noopener noreferrer">Shuo Liu</a>)
+		</h4>
+		<p class="authors">
+			<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680477" target="_blank" rel="noopener noreferrer">SSRN discussion paper</a>
+		</p>
+		<details>
+			<summary>[abstract]</summary>
+			<p class="abstract">
+				In many economic situations, a sender communicates strategically with a receiver not only to influence the receiver's decision-making but also to shape the perception of unobserved characteristics of herself (e.g., morality, loyalty, or capability). To study such situations, we propose a model of Bayesian persuasion in which a sender communicates about a payoff-relevant state to influence decisions but also has a private type and cares about how she presents herself. Optimal communication balances persuasion and self-presentation by signaling about the sender's type. Such signaling through the design of communication has nonstandard implications for the receiver: whether the receiver fares better or worse compared to the pure-persuasion setting may depend on the selected equilibrium, and effects can be non-monotone with respect to the sender's type. We illustrate our findings within various classic payoff environments, for instance with quadratic losses or state-independent sender preferences. Finally, we use the model to shed new light on a series of applications.
+			</p>
+		</details>
 
+		<h2 id="others">Others</h2>
+
+		<h4>
+			Strategic Understatements (with <a href="https://sites.google.com/view/kattwinkel" target="_blank" rel="noopener noreferrer">Deniz Kattwinkel</a>)
+		</h4>
+		<details>
+			<summary>[abstract]</summary>
+			<p class="abstract">
+				We study the design of quality certificates. The certificate holder (sender) tries to convince a receiver of their quality. The receiver benefits from more precise knowledge about the sender's quality and can verify the sender's quality at a cost. We show that if the certificate is too selective, then in all equilibria, senders of very high quality do not present the certificate; they pool with low-quality types who do not hold a certificate. The high types forgo a signaling opportunity ("understatement"), but thereby motivate the receiver to verify their high quality herself. Conversely, when the certificate is not too selective, there are monotone equilibria where higher types are more likely to present their certificates.
+			</p>
+		</details>
+
+		<h4>
+			<a href="https://carlheese.github.io/Candidate-selection-current.pdf" target="_blank" rel="noopener noreferrer">Selecting Candidates: The Value of Non-Uniform Tests and Self-Reports</a>
+		</h4>
+
+		<h4>
+			Note:
+			<a href="https://carlheese.github.io/generalized-ivt-updated.pdf" target="_blank" rel="noopener noreferrer">A Generalized Intermediate Value Theorem</a>
+			(with <a href="https://sites.google.com/site/mehmetekmekci45/" target="_blank" rel="noopener noreferrer">Mehmet Ekmekci</a> and <a href="https://sites.google.com/site/slauerma/" target="_blank" rel="noopener noreferrer">Stephan Lauermann</a>)
+		</h4>
+
+		<h4>
+			Note:
+			<a href="https://www.researchgate.net/publication/353144060_Social_Learning_with_State-Dependent_Observations" target="_blank" rel="noopener noreferrer">Social Learning with State-Dependent Observations</a>
+		</h4>
+		<details>
+			<summary>[abstract]</summary>
+			<p class="abstract">
+				In this note, I study a variant of the canonical binary-state, binary-choice social learning model (Bikhchandani et al., 1992). An individual would like to choose an action only in the high state. When making her own decision, she observes previous decision-makers who chose the action. Importantly, the likelihood of observing the action of a previous decision-maker depends on the state. I show that when observing the action is more likely in the low state, the individual faces an inference problem: does she observe many actions because the state is high and previous decision-makers had private information about this, or because the state is low and previous actions are more visible? In this situation, learning is confounded (Smith and Sorensen, 2000).
+			</p>
+		</details>
+	</div>
+
+	<script type="text/javascript">
+		var sc_project = 12132381;
+		var sc_invisible = 1;
+		var sc_security = "83daadaf";
+		var sc_https = 1;
+	</script>
+	<script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+	<noscript>
+		<div class="statcounter">
+			<a title="Web Analytics" href="https://statcounter.com/" target="_blank" rel="noopener noreferrer">
+				<img class="statcounter" src="https://c.statcounter.com/12132381/0/83daadaf/1/" alt="Web Analytics" />
+			</a>
+		</div>
+	</noscript>
+</body>
+</html>
 
